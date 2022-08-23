@@ -1,0 +1,16 @@
+.No1,.No3,.No5 {
+    background-color: rgb(255, 177, 177);
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+#No2 {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+.No3-font-size {
+    font-size: 24px;
+}
+#No4 {
+    background-color: rgb(117, 249, 128);
+    font-size: 24px;
+    font-weight: bold;
+}
