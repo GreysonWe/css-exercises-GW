@@ -9,9 +9,23 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.left-menu,
+.right-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.right-menu {
+  column-gap: 10px;;
 }
 
 .profile-image {
@@ -44,5 +58,7 @@ a {
 }
 
 ul {
+  display: flex;
+  column-gap: 10px;
   list-style-type: none;
 }
